@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import DemoFuncCom from './Components/DemoFuncCom';
-import DemoHeader from './Components/DemoHeader';
+
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='vampire'>
-    <DemoFuncCom/>
-    <DemoHeader/>
+    <App/>
+    
+
   </div>
 );
 
