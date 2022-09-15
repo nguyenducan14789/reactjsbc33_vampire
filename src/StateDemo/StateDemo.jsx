@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ChangeCarColor from './ChangeCarColor';
 
 export default class StateDemo extends Component {
 
@@ -59,6 +60,9 @@ export default class StateDemo extends Component {
                 <button>vampire</button>
             </div>
         </div>
+        <hr></hr>
+        <ChangeCarColor/>
+        
       </div>
     )
   }
