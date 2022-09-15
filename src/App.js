@@ -3,6 +3,7 @@ import DemoDataBding from './Components/DataBiding/DemoDataBiding/DemoDataBding'
 import Home from './Components/home/Home'
 import HandleEvent from './HandleEvent/HandleEvent.jsx'
 import State from './StateDemo/State.jsx'
+import StateDemo from './StateDemo/StateDemo'
 import StyleDemo from './StyleDemo/StyleDemo'
 
 export default function app() {
@@ -12,7 +13,8 @@ export default function app() {
         {/* <DemoDataBding/> */}
         {/* <HandleEvent/> */}
         {/* <State/> */}
-        <StyleDemo/>
+        {/* <StyleDemo/> */}
+        <StateDemo/>
     </div>
   )
 }
